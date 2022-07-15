@@ -1,5 +1,6 @@
 from evaluate import load
 
+
 #ref is the reference file we compare the transcription to
 cer = load("cer")
 ref = open('/Users/intern/PycharmProjects/pythonProject/F512_ref_file.txt', 'r')
