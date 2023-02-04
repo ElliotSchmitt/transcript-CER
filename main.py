@@ -3,8 +3,10 @@ from evaluate import load
 
 #ref is the reference file we compare the transcription to
 cer = load("cer")
-ref = open('/Users/intern/PycharmProjects/pythonProject/F512_ref_file.txt', 'r')
-pred = open('/Users/intern/PycharmProjects/pythonProject/F512F509-7916-49C0-BFF7-73C702BF2A66_transcript.txt', 'r')
+#input path to reference file
+ref = open('', 'r')
+#input path to file you want to compare reference to
+pred = open('', 'r')
 #put input into string
 referenceString = ''
 predictionString = ''
